@@ -1,0 +1,202 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol, ul, li, table, tr, td, form, object, embed, article, aside, canvas, command, details, fieldset, figcaption, figure, footer, group, header, hgroup, legend, mark, menu, meter, nav, output, progress, section, summary, time, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font: 0.8em arial, helvetica, sans-serif;
+    font-family: "Microsoft Yahei",Verdana,Simsun,"Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif";
+    color: #333;
+    line-height: 1;
+    direction: ltr;
+}
+
+html, body {
+    position: absolute;
+    height: 100%;
+    min-width: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: '.';
+    clear: both;
+    height: 0;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+
+.logo-img {
+    margin: 9px 0 0;
+    height: 32px;
+}
+
+.content {
+    padding: 0 50px;
+}
+
+.header{
+    height: 51px;
+    background: #F1F1F1;
+    border-bottom: 1px solid #E5E5E5;
+    overflow: hidden;
+    margin: 0
+}
+
+.header-content {
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+
+.login-info {
+    cursor: pointer;
+}
+
+#settingMenu {
+    position: absolute;
+    top:50px;
+    right: 5px;
+    display: none;
+    z-index: 3000;
+}
+
+
+.main{
+    max-width: 1000px;
+    min-width: 780px;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    border-top: 1px solid #EBEBEB;
+    overflow: hidden;
+}
+
+.footer ul {
+    color: #999;
+    float: left;
+    max-width: 80%;
+    padding-top: 9px;
+    padding: 9px 50px 0 50px;
+
+    list-style: none;
+    line-height:17px;
+    margin: 0 0 1em;
+}
+
+.sub-content {
+    padding-left: 20px;
+}
+
+.inner-box {
+    border: 1px solid #DEDEDE;
+    background-color: #F7F7F7;
+}
+
+.huge-avatar {
+    width: 120px;
+    height: 120px;
+}
+
+.large-avatar {
+    width: 60px;
+    height: 60px;
+    margin: 0 18px;
+}
+
+.normal-avatar {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.small-avatar {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.content-box {
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 30px 30px 20px;
+}
+
+.form-box {
+    padding: 20px;
+}
+
+.upload-btn {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: 4px;
+}
+
+.upload-btn input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+.tagit-new input,.tagit-new input:hover,.tagit-new input:focus,.tagit-new input:active {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+/*::-webkit-scrollbar {*/
+    /*height: 16px;*/
+    /*overflow: visible;*/
+    /*width: 16px;*/
+/*}*/
+/*::-webkit-scrollbar-thumb {*/
+    /*background-color: rgba(0, 0, 0, .2);*/
+    /*background-clip: padding-box;*/
+    /*border: solid transparent;*/
+    /*min-height: 28px;*/
+    /*padding: 100px 0 0;*/
+    /*box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);*/
+    /*border-width: 1px 1px 1px 6px;*/
+/*}*/
+/*::-webkit-scrollbar-button {*/
+    /*height: 0;*/
+    /*width: 0;*/
+/*}*/
+/*::-webkit-scrollbar-track {*/
+    /*background-clip: padding-box;*/
+    /*border: solid transparent;*/
+    /*border-width: 0 0 0 4px;*/
+/*}*/
+/*::-webkit-scrollbar-corner {*/
+    /*background: transparent;*/
+/*}*/

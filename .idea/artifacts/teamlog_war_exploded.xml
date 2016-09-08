@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="teamlog:war exploded">
+    <output-path>$PROJECT_DIR$/target/teamlog</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="teamlog" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:jstl-impl:1.2" />
+          <element id="library" level="project" name="Maven: net.sourceforge.stripes:stripes:1.5.7" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: commons-dbutils:commons-dbutils:1.5" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.2" />
+          <element id="library" level="project" name="Maven: com.servlets:cos:05Nov2002" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-email:1.2" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.1" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.18" />
+          <element id="library" level="project" name="Maven: com.jolbox:bonecp:0.8.0.RELEASE" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:15.0" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.1" />
+          <element id="library" level="project" name="Maven: net.coobird:thumbnailator:0.4.2" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.9" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.9" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.9" />
+          <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" />
+          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/teamlog/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="teamlog/web/Web" />
+    </root>
+  </artifact>
+</component>
